@@ -1,0 +1,43 @@
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js"
+integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7"
+crossorigin="anonymous"></script>-->
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<!-- Magnific Popup core JS file -->
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script>
+    $('.gallery').each(function() { // the containers for all your galleries
+        $(this).magnificPopup({
+            delegate: 'a', // the selector for gallery item
+            type: 'image',
+            gallery: {
+                enabled:true
+            }
+        });
+    });
+</script>
+<footer class="pad-left pad-right">
+    <p>&copy; Разина Элина 2016 год</p>
+    <script type="text/javascript">(function() {
+        if (window.pluso)if (typeof window.pluso.start == "function") return;
+        if (window.ifpluso==undefined) { window.ifpluso = 1;
+            var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
+            s.type = 'text/javascript'; s.charset='UTF-8'; s.async = true;
+            s.src = ('https:' == window.location.protocol ? 'https' : 'http')  + '://share.pluso.ru/pluso-like.js';
+            var h=d[g]('body')[0];
+            h.appendChild(s);
+        }})();</script>
+    <div class="pluso" data-background="transparent"
+         data-options="medium,round,line,horizontal,counter,theme=06"
+         data-services="vkontakte,facebook,linkedin,twitter,moimir,email,print"
+         data-url="http://www.erazina.info"
+         data-title="Сайт-портфолио веб-разработчика Разиной Элины"
+         data-description="Сайт-портфолио веб-разработчика"></div>
+</footer>
+</body>
+</html>
