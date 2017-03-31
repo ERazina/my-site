@@ -32,39 +32,38 @@
 
 </head>
 <body>
-<div class = "wrap">
-	<header>
-	<img class="logo pad-left" src="img/portfolio.bmp" alt="Логотип сайта"/>
-
-		<nav class="nav nav-inline">
-			<a class="nav-link active" href="#about">Обо мне</a>
-			<a class="nav-link" href="#portfolio">Портфолио</a>
-			<a class="nav-link" href="#contacts">Контакты</a>
-		</nav>
-	</header>
+	<div class = "wrap">
+		<header>
+			<img class="logo pad-left" src="img/portfolio.bmp" alt="Логотип сайта"/>
+			<nav class="nav nav-inline">
+				<a class="nav-link active" href="#about">Обо мне</a>
+				<a class="nav-link" href="#portfolio">Портфолио</a>
+				<a class="nav-link" href="#contacts">Контакты</a>
+			</nav>
+		</header>
 	</div>
 
-<!--слайдер-->
-<div id ="slider">
-	<img src="img/slider9.png" id="slider-image" alt="слайдер">
-</div>
+	<!--слайдер-->
+	<div id ="slider">
+		<img src="img/slider9.png" id="slider-image" alt="слайдер">
+	</div>
 <div class = "wrap">
 	<section id="about-section">
 		<h2 id = "about">Обо мне</h2>
-			<div id="image">
-				<img src="img/me.png" alt = "Разина Элина" id="me">
-			</div>
-			<div id = "info">
-				<h3>Мои знания и навыки:</h3>
-				<ul class="nav nav-tabs">
-					<li class="active"><a data-toggle="tab" href="#panel1">Языки программирования</a></li>
-					<li><a data-toggle="tab" href="#panel2">Дополнительные знания</a></li>
-					<li><a data-toggle="tab" href="#panel3">Репозиторий</a></li>
-					<li><a data-toggle="tab" href="#panel4">Образование</a></li>
-					<li><a data-toggle="tab" href="#panel5">Мое резюме</a></li>
-				</ul>
+		<div id="image">
+			<img src="img/me.png" alt = "Разина Элина" id="me">
+		</div>
+		<div id = "info">
+			<h3>Мои знания и навыки:</h3>
+			<ul class="nav nav-tabs">
+				<li class="active"><a data-toggle="tab" href="#panel1">Языки программирования</a></li>
+				<li><a data-toggle="tab" href="#panel2">Дополнительные знания</a></li>
+				<li><a data-toggle="tab" href="#panel3">Репозиторий</a></li>
+				<li><a data-toggle="tab" href="#panel4">Образование</a></li>
+				<li><a data-toggle="tab" href="#panel5">Мое резюме</a></li>
+			</ul>
 
-	<div class="tab-content">
+			<div class="tab-content">
 		<div id="panel1" class="tab-pane fade in active">
 			<h3>Мои навыки</h3>
 			HTML5
@@ -89,64 +88,66 @@
 			<div class="progress">
 				<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
 					<span class="sr-only">80% Complete</span>
-				</div>
 			</div>
 		</div>
-		<div id="panel2" class="tab-pane fade">
-			<h3>Дополнительные знания и навыки</h3>
-			<span class="label label-pill label-primary">Английский язык в совершенстве</span>
-			<span class="label label-pill label-success">AJAX</span>
-			<span class="label label-pill label-info">MySQL</span>
-			<span class="label label-pill label-warning">AdobePhotoshop</span>
-			<span class="label label-pill label-danger">PHPStorm</span>
-			<span class="label label-primary">CMS Wordpress</span>
-			<span class="label label-pill label-success">Git</span>
-			<span class="label label-pill label-warning">JQuery</span>
-			<span class="label label-pill label-danger">Bootstrap</span>
-			<span class="label label-pill label-danger">Ruby on Rails</span>
-		</div>
-		<div id="panel3" class="tab-pane fade">
-			<h3>Ссылка на репозиторий:</h3>
-			<a href="https://github.com/ERazina/">www.github.com/Erazina</a>
-		</div>
-		<div id="panel4" class="tab-pane fade">
-			<h3>Мое образование</h3>
-			<p>2017 - магистратура - Российский Политехнический Университет им. Петра Великого</p>
-		</div>
-		<div id="panel5" class="tab-pane fade">
-			<h3>Мое резюме</h3>
-			<a href="documents/resume.pdf" download>Скачать резюме</a>
-		</div>
 	</div>
+	<div id="panel2" class="tab-pane fade">
+		<h3>Дополнительные знания и навыки</h3>
+		<span class="label label-pill label-primary">Английский язык в совершенстве</span>
+		<span class="label label-pill label-success">AJAX</span>
+		<span class="label label-pill label-info">MySQL</span>
+		<span class="label label-pill label-warning">AdobePhotoshop</span>
+		<span class="label label-pill label-danger">PHPStorm</span>
+		<span class="label label-primary">CMS Wordpress</span>
+		<span class="label label-pill label-success">Git</span>
+		<span class="label label-pill label-warning">JQuery</span>
+		<span class="label label-pill label-danger">Bootstrap</span>
+		<span class="label label-pill label-danger">Ruby on Rails</span>
 	</div>
+	<div id="panel3" class="tab-pane fade">
+		<h3>Ссылка на репозиторий:</h3>
+		<a href="https://github.com/ERazina/">www.github.com/Erazina</a>
+	</div>
+	<div id="panel4" class="tab-pane fade">
+		<h3>Мое образование</h3>
+		<p>2017 - магистратура - Российский Политехнический Университет им. Петра Великого</p>
+	</div>
+	<div id="panel5" class="tab-pane fade">
+		<h3>Мое резюме</h3>
+		<a href="documents/resume.pdf" download>Скачать резюме</a>
+	</div>
+</div>
+</div>
+
+
 </section>
-	<div id="portfolio" class="pad-left pad-right">
-	<h2>Мое портфолио</h2>
-	<div class = "portfolio_works">
-		<div class="row">
-			<div class="col-sm-6 col-md-4">
-				<div class="thumbnail">
-					<div class="gallery">
-						<div class = "image_block">
-						<a href="img/business.jpeg"><img src="img/business.jpeg" width="100%" height="100" alt="Пример"></a>
+	<div class="container">
+		<div id="portfolio" class="pad-left pad-right">
+			<h2>Мое портфолио</h2>
+			<div class = "portfolio_works">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-4">
+					<div class="thumbnail">
+						<div class="gallery">
+							<div class = "image_block">
+								<a href="img/biz2.jpg"><img src="img/biz2.jpg" width="100%" height="100" alt="Пример"></a>
+							</div>
 						</div>
-					</div>
 					<div class="caption">
 						<h3>Бизнес с 0</h3>
 						<p>Технологии</p>
 						<span class="label label-pill label-primary">HTML</span>
 						<span class="label label-pill label-success">CSS</span>
 						<span class="label label-pill label-warning">AdobePhotoshop</span>
-
+					</div>
 					</div>
 				</div>
-			</div>
 
-			<div class="col-sm-6 col-md-4">
+			<div class="col-xs-12 col-sm-12 col-md-4">
 				<div class="thumbnail">
 					<div class="gallery">
 						<div class = "image_block">
-						<a href="img/simplify.png"><img src="img/simplify.png" width="100%" height="100" alt="Пример"></a>
+						<a href="img/simplify.jpg"><img src="img/simplify.jpg" width="150%" height="100" alt="Пример"></a>
 						</div>
 					</div>
 					<div class="caption">
@@ -159,11 +160,34 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-6 col-md-4">
+			<div class="col-xs-12 col-sm-12 col-md-4">
 				<div class="thumbnail">
 					<div class="gallery">
 						<div class = "image_block">
-							<a href="img/abo.png"><img src="img/abo.png" width="100%" height="100" alt="Пример"></a>
+							<a href="img/veeam.jpg"><img src="img/veeam.jpg" width="100%" height="100" alt="Мокап сайта Veeam Software"></a>
+						</div>
+					</div>
+					<div class="caption">
+						<h3>Лэндинг-пейдж Veeam Software</h3>
+						<a href = "http://www.erazina.info/veeam/index.html">Посмотреть сайт</a>
+						<p>Технологии</p>
+						<span class="label label-pill label-primary">HTML</span>
+						<span class="label label-pill label-success">CSS</span>
+						<span class="label label-pill label-danger">Adobe Photoshop</span>
+						<span class="label label-pill label-warning">Bootstrap</span>
+
+					</div>
+				</div>
+			</div>
+
+		<div class="row">
+
+			<div class="col-xs-12 col-sm-12 col-md-4">
+				<div class="thumbnail">
+					<div class="gallery">
+						<div class = "image_block">
+							<a href="img/yoga.png"><img src="img/yoga.png" width="100%" height="100" alt="Портал школы йоги">
+							</a>
 						</div>
 					</div>
 					<div class="caption">
@@ -177,28 +201,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm-6 col-md-4">
-				<div class="thumbnail">
-					<div class="gallery">
-						<div class = "image_block">
-						<a href="img/dr-rasin.png"><img src="img/dr-rasin.png" width="100%" height="100" alt="Пример"></a>
-						</div>
-					</div>
-					<div class="caption">
-						<h3>Сайт Доктора Александра Разина</h3>
-						<a href = "http://www.dr-alexander-rasin.de">Посмотреть сайт</a>
-						<p>Технологии</p>
-						<span class="label label-pill label-primary">HTML</span>
-						<span class="label label-pill label-success">CSS</span>
-						<span class="label label-pill label-danger">PHP</span>
-						<span class="label label-pill label-warning">WordPress</span>
-
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-6 col-md-4">
+			<div class="col-xs-12 col-sm-12 col-md-4">
 				<div class="thumbnail">
 					<div class="gallery">
 						<div class = "image_block">
@@ -215,7 +218,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-6 col-md-4">
+			<div class="col-xs-12 col-sm-12 col-md-4">
 				<div class="thumbnail">
 					<div class="gallery">
 						<div class = "image_block">
@@ -232,10 +235,32 @@
 					</div>
 				</div>
 			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-4">
+					<div class="thumbnail">
+						<div class="gallery">
+							<div class = "image_block">
+								<a href="img/dr-rasin.png"><img src="img/dr-rasin.png" width="100%" height="100" alt="Пример"></a>
+							</div>
+						</div>
+						<div class="caption">
+							<h3>Сайт Доктора Александра Разина</h3>
+							<a href = "http://www.dr-alexander-rasin.de">Посмотреть сайт</a>
+							<p>Технологии</p>
+							<span class="label label-pill label-primary">HTML</span>
+							<span class="label label-pill label-success">CSS</span>
+							<span class="label label-pill label-danger">PHP</span>
+							<span class="label label-pill label-warning">WordPress</span>
+
+						</div>
+					</div>
+				</div>
 		</div>
 	</div>
 </div>
-	<section id = "contacts">
+</div>
+		</div>
+<!-- 	<section id = "contacts">
 		<h2>Контакты</h2>
 		<div id = "contact_info_main">
 				<p>Телефон: 8-950-016-50-37</p>
@@ -254,7 +279,7 @@
 					</div>
 					<p><input type="submit" value="Отправить" id = "submit"></p>
 				</form>
-		</section>
+		</section> -->
 </div>
 <?php
 include_once ("footer.html");
