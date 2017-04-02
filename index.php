@@ -45,7 +45,7 @@
 
 	<!--слайдер-->
 	<div id ="slider">
-		<img src="img/slider9.png" id="slider-image" alt="слайдер">
+		<!-- <img src="img/slider9.png" id="slider-image" alt="слайдер"> -->
 	</div>
 <div class = "wrap">
 	<section id="about-section">

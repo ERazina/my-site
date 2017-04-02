@@ -32,8 +32,13 @@ img.logo{
 
 
 #slider{
-	max-height: 600px;
-	overflow: hidden;
+	height: 600px;
+    margin-top: 15px;
+    overflow: hidden;
+    background-image: url(../img/slider9.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #slider-image{
 margin-top: 20px;
@@ -156,4 +161,31 @@ footer{
 
 textarea{
 	border-radius: 10px;
+}
+
+@media (max-width: 425px){
+	.pad-left {
+    	padding-left: 30px;
+	}
+
+	.nav{
+		display: flex;
+	    width: 100%;
+	    margin-right:0;
+	    padding-bottom: 20px;
+	}
+
+	.nav-link{
+		font-size:15px;
+		justify-content: center;
+	}
+
+	#slider{
+		height:200px;
+
+		h2{
+			padding-top: 10px;
+		}
+
+
 }
