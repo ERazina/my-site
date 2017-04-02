@@ -51,7 +51,7 @@
 	<section id="about-section">
 		<h2 id = "about">Обо мне</h2>
 		<div id="image">
-			<img src="img/me.png" alt = "Разина Элина" id="me">
+			<!-- <img src="img/me.png" alt = "Разина Элина" id="me"> -->
 		</div>
 		<div id = "info">
 			<h3>Мои знания и навыки:</h3>
@@ -103,6 +103,11 @@
 		<span class="label label-pill label-warning">JQuery</span>
 		<span class="label label-pill label-danger">Bootstrap</span>
 		<span class="label label-pill label-danger">Ruby on Rails</span>
+		<span class="label label-pill label-primary">SASS</span>
+		<span class="label label-pill label-success">LESS</span>
+		<!-- span class="label label-pill label-info">MySQL</span>
+		<span class="label label-pill label-warning">AdobePhotoshop</span>
+		<span class="label label-pill label-danger">PHPStorm</span> -->
 	</div>
 	<div id="panel3" class="tab-pane fade">
 		<h3>Ссылка на репозиторий:</h3>

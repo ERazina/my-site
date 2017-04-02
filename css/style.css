@@ -58,12 +58,12 @@ h2{
 
 }
 
-#image{
-	width: 30%;
-	float: left;
-	padding-right: 50px;
-	padding-left: 100px;
-}
+// #image{
+	// width: 30%;
+	// float: left;
+	// padding-right: 50px;
+	// padding-left: 100px;
+// }
 
 #info{
 	float: right;
@@ -182,10 +182,54 @@ textarea{
 
 	#slider{
 		height:200px;
-
+		}
 		h2{
 			padding-top: 10px;
 		}
+		.nav>li>a{
+			display: inline-block;
+		}
+		.nav-tabs{
+			display: inline;
+			border-bottom:0;
+		}
+		#info {
+		    width: 100%;
+		    padding-right: 10px;
+		    padding-left: 10px;
+	    }
+	    #portfolio{
+	    	padding-right:0;
+	    	padding-left:0;
+	    }
+
+	    #image{
+	    	background-image: url(../img/me.png);
+		    width: 150px;
+		    height: 150px;
+		    display: block;
+		    background-size: cover;
+		    background-repeat: no-repeat;
+		    margin: 0 auto;
+		    border: 2px solid cornflowerblue;
+		    border-radius: 50%;
+		    justify-content: center;
+			margin-left: 31%;
+	    }
+
+	    h2, h3{
+	    	text-align: center;
+	    }
+
+}
+
+@media(max-width: 359px){
+
+	#slider{
+	height: 179px;
+    width: 107%;
+    oveflow: hidden;
+	}
 
 
 }
