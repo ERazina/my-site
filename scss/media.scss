@@ -1,33 +1,81 @@
+@media (max-width: 1024px){
 
-@media (max-width: 425px) {
+}
+
+@media (max-width: 768px){
+
+}
+
+
+
+@media (max-width: 425px){
   .pad-left {
-    padding-left: 30px; }
-  .nav {
-    display: flex;
+      padding-left: 30px;
+  }
+
+  .nav{
+    margin-top: 24px;
+    padding-bottom: 20px;}
+
+  .nav-link{
+    font-size:15px;
+    justify-content: center;
+  }
+
+  #slider{
+    overflow: hidden;
+    margin-top: 15px;
+    overflow: hidden;
+    background-image: url('../../img/slider9.png');
     width: 100%;
-    margin-right: 0;
-    padding-bottom: 20px; }
-  .nav-link {
-    font-size: 15px;
-    justify-content: center; }
-  #slider {
-    height: 200px; }
-  h2 {
-    padding-top: 10px; }
-  .nav > li > a {
-    display: inline-block; }
-  .nav-tabs {
-    display: inline;
-    border-bottom: 0; }
-  #info {
-    width: 100%;
-    padding-right: 10px;
-    padding-left: 10px; }
-  #portfolio {
-    padding-right: 0;
-    padding-left: 0; }
-  #image {
-    background-image: url(../img/me.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+    h2{
+      padding-top: 10px;
+    }
+    .nav>li>a{
+      display: inline-block;
+    }
+    .nav-tabs{
+      display: inline;
+      border-bottom:0;
+    }
+    #info {
+        width: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
+      }
+      #portfolio{
+        padding-right:0;
+        padding-left:0;
+      }
+
+      #image{
+        background-image: url(../img/me.png);
+        width: 150px;
+        height: 150px;
+        display: block;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+        border: 2px solid cornflowerblue;
+        border-radius: 50%;
+        justify-content: center;
+      }
+
+      h2, h3{
+        text-align: center;
+      }
+      .nav-tabs>li.active>a{
+        border: 1px solid red;
+      }
+
+}
+
+@media(min-width: 310px){
+#image {
+    background-image: url('../../img/me.png');
     width: 150px;
     height: 150px;
     display: block;
@@ -37,16 +85,19 @@
     border: 2px solid cornflowerblue;
     border-radius: 50%;
     justify-content: center;
-    margin-left: 31%; }
-  h2, h3 {
-    text-align: center; }
-  .nav-tabs > li.active > a {
-    border: 1px solid red; } }
+    margin-left: 31%;}
 
-@media (max-width: 359px) {
-  #slider {
-    height: 179px;
-    width: 107%;
-    oveflow: hidden; }
-  h3 {
-    font-size: 18px; } }
+  #slider{
+  height: 179px;
+  width: 100%;
+  overflow: hidden;
+  }
+
+  h3{
+    font-size:18px;
+  }
+    .pad-left {
+      padding-left: 30px;
+  }
+
+}

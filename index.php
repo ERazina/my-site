@@ -16,26 +16,15 @@
 
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="build/css/style.css">
+    <link rel="stylesheet" type="text/css" href="build/css/media.css">
 
 <script src="js/jquery.js"></script>
 <script src="js/jquery-ui.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <!-- Magnific Popup core JS file -->
 <script src="js/jquery.magnific-popup.min.js"></script>
-	<!-- Latest compiled and minified JavaScript -->
-
-	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">-->
-
-	<!--<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">-->
-	<!--<link rel="stylesheet" href="/resources/demos/style.css">-->
-	<!--<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>-->
-
-	<!-- Magnific Popup core CSS file -->
 	<link rel="stylesheet" href="css/magnific-popup.css">
-
-
-
 </head>
 <body>
 	<div class = "wrap">
@@ -57,10 +46,8 @@
 	<section id="about-section">
 		<h2 id = "about">Обо мне</h2>
 		<div id="image">
-			<!-- <img src="img/me.png" alt = "Разина Элина" id="me"> -->
 		</div>
 		<div id = "info">
-			<!-- <h3>Мои знания и навыки:</h3> -->
 			<div id="menu">
 				<div class="first-tab">
 	            	<h4 class="first-link">Языки программирования</h4>
@@ -110,22 +97,34 @@
 					<span class="label label-pill label-primary">SASS</span>
 					<span class="label label-pill label-success">LESS</span>
 	            </div>
-	            <h3>Репозиторий</h3>
+	            <div class="third-tab">
+	            	<h4 class="third-link">Репозиторий</h4>
+	            	<div id="third-arrow"></div>
+            	</div>
 	            <div>
 					<a href="https://github.com/ERazina/">www.github.com/Erazina</a>
 	            </div>
-	            <h3>Образование</h3>
+	            <div class="forth-tab">
+	            	<h4 class="forth-link">Образование</h4>
+	            	<div id="forth-arrow"></div>
+	            	</div>
 	            <div>
 					<p>2017 - магистратура - Российский Политехнический Университет им. Петра Великого</p>
 	            </div>
-	            <h3>Опыт работы</h3>
+	            <div class="forth-tab">
+	            	<h4 class="forth-link">Опыт работы</h4>
+	            	<div id="forth-arrow"></div>
+	            	</div>
 	            <div>
 					<p>01.2017 - настоящее время - ТЕХНОСИЛА - верстальщик</p>
 					<p>Верстка промо-страниц</p>
 					<p>Верстка email-рассылок</p>
 					<p>Верстка страниц интернет-магазина десктопной и мобильной версии</p>
 	            </div>
-	            <h3>Мое резюме</h3>
+	            <div class="forth-tab">
+	            	<h4 class="forth-link">Скачать резюме</h4>
+	            	<div id="forth-arrow"></div>
+	            	</div>
 	            <div>
 					<a href="documents/resume.pdf" download>Скачать резюме</a>
 	            </div>
