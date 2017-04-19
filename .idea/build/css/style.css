@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@pad-right @import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,300italic&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,300italic&subset=latin,cyrillic);
 body {
   color: #333; }
 
@@ -30,8 +30,7 @@ img.logo {
   background-image: url(../../img/slider9.png);
   width: 100%;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed; }
+  background-size: cover; }
 
 #slider-image {
   margin-top: 20px;
@@ -53,13 +52,12 @@ h2 {
   margin: auto;
   margin-top: 20px;
   margin-bottom: 20px; }
-  #info .ui-accordion-content .ui-corner-bottom .ui-helper-reset .ui-widget-content .ui-accordion-content-active {
-    display: inline; }
+  #info .ui-id-6 {
+    display: inline-block; }
   #info h4 {
     text-align: center; }
 
-/*
-#info-me{
+/*#info-me{
 position: absolute;
 	top:1350px;
 	width: 90%;
@@ -70,14 +68,12 @@ position: absolute;
   width: 100%;
   background-color: whitesmoke;
   overflow: auto; }
-  #portfolio .pad-right {
-    padding-right: 30px; }
 
 .pad-left {
-  padding-left: 30px; }
+  padding-left: 100px; }
 
 .pad-right {
-  padding-right: 30px; }
+  padding-right: 100px; }
 
 .image-link {
   cursor: -webkit-zoom-in;
@@ -101,8 +97,6 @@ position: absolute;
 .image_block {
   height: 200px;
   overflow: hidden; }
-  .image_block img {
-    overflow: hidden; }
 
 #contacts {
   width: 100%; }
@@ -145,7 +139,7 @@ textarea {
   border-radius: 10px; }
 
 .button {
-  background-color: #6495ED;
+  background-color: cornflowerblue;
   margin: auto;
   text-transform: uppercase;
   padding: 10px 30px;
@@ -153,15 +147,10 @@ textarea {
   margin-bottom: 20px;
   line-height: 50px;
   display: block; }
-  .button:hover {
-    background-color: #447fe9;
-    -webkit-transition: all 1s ease-out;
-    transition: all 1s ease-out; }
 
 .button > a {
   color: white;
-  width: 100%;
-  padding: 20px 30px; }
+  width: 100%; }
 
 #portfolio {
   margin-bottom: 10px; }
@@ -228,22 +217,3 @@ h4 {
   -ms-flex-pack: center;
   justify-content: center;
   margin-left: 50%; }
-
-.portfolio h1 {
-  text-align: center; }
-
-#flexbox {
-  width: 100%;
-  text-align: center; }
-  #flexbox .project {
-    display: inline-block;
-    margin: 30px; }
-
-#menu h4:hover {
-  cursor: pointer; }
-
-#portfolio_more {
-  background-color: #6495ED; }
-
-.info {
-  background-color: red; }

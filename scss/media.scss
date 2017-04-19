@@ -23,6 +23,7 @@
   }
 
   #slider{
+    height: 180px;
     overflow: hidden;
     margin-top: 15px;
     overflow: hidden;
@@ -84,11 +85,9 @@
     margin: 0 auto;
     border: 2px solid cornflowerblue;
     border-radius: 50%;
-    justify-content: center;
-    margin-left: 31%;}
+    justify-content: center;}
 
   #slider{
-  height: 179px;
   width: 100%;
   overflow: hidden;
   }

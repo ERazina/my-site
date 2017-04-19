@@ -1,4 +1,7 @@
 @charset "utf-8";
+$blue-button: #6495ED;
+
+@pad-right
 
 @import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,300italic&subset=latin,cyrillic);
   
@@ -39,6 +42,7 @@ img.logo{
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 #slider-image{
 margin-top: 20px;
@@ -66,8 +70,17 @@ h2{
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
+
+    .ui-accordion-content .ui-corner-bottom .ui-helper-reset .ui-widget-content .ui-accordion-content-active{
+    	display: inline;
+    }
+
+    h4{
+    	text-align: center;
+    }
 }
-/*#info-me{
+/*
+#info-me{
 position: absolute;
 	top:1350px;
 	width: 90%;
@@ -78,14 +91,17 @@ position: absolute;
 	width: 100%;
 	background-color: whitesmoke;
 	overflow: auto;
+	.pad-right{
+		padding-right: 30px;
+	}
 }
 
 .pad-left{
-	padding-left: 100px;
+	padding-left: 30px;
 }
 
 .pad-right{
-	padding-right: 100px;
+	padding-right: 30px;
 }
 .image-link {
 	cursor: -webkit-zoom-in;
@@ -112,7 +128,12 @@ position: absolute;
 .image_block{
 	height: 200px;
 	overflow: hidden;
+	img{
+		overflow: hidden;
+	}
 }
+
+
 
 #contacts{
 	width: 100%;
@@ -161,7 +182,7 @@ textarea{
 }
 
 .button{
-	background-color: cornflowerblue;
+	background-color: $blue-button;
 	margin: auto;
 	text-transform: uppercase;
 	padding: 10px 30px;
@@ -169,12 +190,20 @@ textarea{
 	margin-bottom: 20px;
 	line-height:50px;
 	display: block;
+
+	&:hover{
+	 	background-color: darken($blue-button, 7%);
+	 	transition: all 1s ease-out;
+	}
 }
+
 
 .button>a{
 	color: white;
 	width: 100%;
+	padding: 20px 30px;
 }
+
 
 #portfolio{
 	margin-bottom: 10px;
@@ -237,5 +266,39 @@ h4{
     border: 2px solid cornflowerblue;
     border-radius: 50%;
     justify-content: center;
-    margin-left: 31%; }
+    margin-left: 50%; }
 
+
+    .portfolio{
+    	h1{
+    		text-align: center;
+    	}
+    }
+
+    #flexbox{
+		width: 100%;
+		text-align: center;
+
+    	.project{
+    		display: inline-block;
+    		margin: 30px;
+    		
+    	}
+    }
+
+
+    #menu{
+    	h4{
+    		&:hover{
+    			cursor: pointer;
+    		}
+    	}
+    }
+
+    #portfolio_more{
+    	background-color: $blue-button;
+
+    }
+.info{
+	background-color: red;
+}

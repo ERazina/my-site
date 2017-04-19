@@ -27,11 +27,19 @@
 	<link rel="stylesheet" href="css/magnific-popup.css">
 </head>
 <body>
+<!-- <header class="head" data-parallax="scroll" data-image-src="img/portfolio.bmp">
+ <h1>Smartlanding</h1>
+ <h2>Создание landing page</h2>
+</header> -->
+<!-- <div class="parallax-container" data-parallax="scroll" data-bleed="10" data-speed="0.2" data-image-src="./img/portfolio.bmp" data-natural-width="1400" data-natural-height="1400" style="height: 270px;"></div>
+<div class="parallax-window" data-parallax="scroll" data-image-src="/img/slider9.png">
+<img class="parallax-slider" src="./img/slider9.png" style="transform: translate3d(0px, 0px, 0px); position: absolute; top: -146.4px; left: 0px; height: 792px; width: 1232px; max-width: none;"><h1>Header</h1></div> -->
 	<div class = "wrap">
-		<header>
+
+<header>
 			<img class="logo pad-left" src="img/portfolio.bmp" alt="Логотип сайта"/>
 			<nav class="nav nav-inline">
-				<a class="nav-link active" href="#about">Обо мне</a>
+				<a class="nav-link active" href="localhost/my-site/index.php#about">Обо мне</a>
 				<a class="nav-link" href="#portfolio">Портфолио</a>
 				<a class="nav-link" href="#contacts">Контакты</a>
 			</nav>
@@ -84,18 +92,19 @@
 	            	<div id="second-arrow"></div>
             	</div>
 	            <div>
-	                <span class="label label-pill label-primary">Английский язык в совершенстве</span>
-					<span class="label label-pill label-success">AJAX</span>
+	            	<span class="label label-pill label-primary">SASS</span>
+					<span class="label label-pill label-warning">LESS</span>
+					<span class="label label-pill label-success">Gulp</span>
+					<span class="label label-pill label-info">Git</span>
+					<span class="label label-pill label-warning">JQuery</span>	               
+					<span class="label label-pill label-primary">Английский язык в совершенстве</span>
+					<span class="label label-pill label-danger">Bootstrap</span>
 					<span class="label label-pill label-info">MySQL</span>
 					<span class="label label-pill label-warning">AdobePhotoshop</span>
-					<span class="label label-pill label-danger">PHPStorm</span>
+					<span class="label label-pill label-danger">WebStorm</span>
 					<span class="label label-primary">CMS Wordpress</span>
-					<span class="label label-pill label-success">Git</span>
-					<span class="label label-pill label-warning">JQuery</span>
-					<span class="label label-pill label-danger">Bootstrap</span>
 					<span class="label label-pill label-danger">Ruby on Rails</span>
-					<span class="label label-pill label-primary">SASS</span>
-					<span class="label label-pill label-success">LESS</span>
+					
 	            </div>
 	            <div class="third-tab">
 	            	<h4 class="third-link">Репозиторий</h4>
@@ -137,11 +146,31 @@
 			<h2>Мое портфолио</h2>
 			<div class = "portfolio_works">
 			<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-4">
+				<div class="thumbnail">
+					<div class="gallery">
+						<div class = "image_block">
+						<a href="img/erazina.png"><img class="portfolio-img" src="img/erazina.png" width="100%" height="100" alt="Пример"></a>
+						</div>
+					</div>
+					<div class="caption">
+						<h3>Сайт-портфолио</h3>
+						<p>Технологии</p>
+						<span class="label label-pill label-primary">HTML</span>
+						<span class="label label-pill label-success">PHP</span>
+						<span class="label label-pill label-warning">SASS</span>
+						<span class="label label-pill label-danger">Jquery</span>
+						<span class="label label-pill label-primary">Gulp</span>
+						<span class="label label-pill label-success">Bootstrap</span>
+						<span class="label label-pill label-warning">Adobe Photoshop</span>
+					</div>
+				</div>
+			</div>
 				<div class="col-xs-12 col-sm-12 col-md-4">
 					<div class="thumbnail">
 						<div class="gallery">
 							<div class = "image_block">
-								<a href="img/biz2.jpg"><img src="img/biz2.jpg" width="100%" height="100" alt="Пример"></a>
+								<a href="img/biz2.jpg"><img class="portfolio-img" src="img/biz2.jpg" width="100%" height="100" alt="Пример"></a>
 							</div>
 						</div>
 					<div class="caption">
@@ -153,33 +182,17 @@
 					</div>
 					</div>
 				</div>
-<div class="col-xs-12 col-sm-12 col-md-4">
-				<div class="thumbnail">
-					<div class="gallery">
-						<div class = "image_block">
-						<a href="img/simplify.jpg"><img src="img/simplify.jpg" width="150%" height="100" alt="Пример"></a>
-						</div>
-					</div>
-					<div class="caption">
-						<h3>Страница-визитка сайта "Simplify the growth"</h3>
-						<p>Технологии</p>
-						<span class="label label-pill label-primary">HTML</span>
-						<span class="label label-pill label-success">CSS</span>
-						<span class="label label-pill label-warning">AdobePhotoshop</span>
 
-					</div>
-				</div>
-			</div>
 		<div class="col-xs-12 col-sm-12 col-md-4">
 				<div class="thumbnail">
 					<div class="gallery">
 						<div class = "image_block">
-							<a href="img/veeam.jpg"><img src="img/veeam.jpg" width="100%" height="100" alt="Мокап сайта Veeam Software"></a>
+							<a href="img/veeam.jpg"><img  class="portfolio-img" src="img/veeam.jpg" width="100%" height="100" alt="Мокап сайта Veeam Software"></a>
 						</div>
 					</div>
 					<div class="caption">
 						<h3>Лэндинг-пейдж Veeam Software</h3>
-						<a href = "http://www.erazina.info/veeam/index.html">Посмотреть сайт</a>
+						<!-- <a href = "http://www.erazina.info/veeam/index.html">Посмотреть сайт</a> -->
 						<p>Технологии</p>
 						<span class="label label-pill label-primary">HTML</span>
 						<span class="label label-pill label-success">CSS</span>
@@ -195,16 +208,15 @@
 				<div class="thumbnail">
 					<div class="gallery">
 						<div class = "image_block">
-						<a href="img/hotel.png"><img src="img/hotel.png" width="100%" height="100" alt="Пример"></a>
+						<a href="img/simplify.jpg"><img class="portfolio-img" src="img/simplify.jpg" width="100%" height="100" alt="Пример"></a>
 						</div>
 					</div>
 					<div class="caption">
-						<h3>Портал отеля</h3>
-						<p>Технологии</p>
+						<h3>Сайт-визитка</h3>
+						<p>Simplify the growth</p>
 						<span class="label label-pill label-primary">HTML</span>
 						<span class="label label-pill label-success">CSS</span>
 						<span class="label label-pill label-warning">AdobePhotoshop</span>
-
 					</div>
 				</div>
 			</div>
@@ -212,18 +224,16 @@
 					<div class="thumbnail">
 						<div class="gallery">
 							<div class = "image_block">
-								<a href="img/dr-rasin.png"><img src="img/dr-rasin.png" width="100%" height="100" alt="Пример"></a>
+								<a href="img/gizmopal.png"><img class="portfolio-img" src="img/gizmopal.png" width="100%" height="100" alt="Пример"></a>
 							</div>
 						</div>
 						<div class="caption">
-							<h3>Сайт Доктора Александра Разина</h3>
-							<a href = "http://www.dr-alexander-rasin.de">Посмотреть сайт</a>
+							<h3>Сайт по продаже детских часов</h3>
+							<a href = "http://www.gizmopal.ru">Посмотреть сайт</a>
 							<p>Технологии</p>
 							<span class="label label-pill label-primary">HTML</span>
 							<span class="label label-pill label-success">CSS</span>
-							<span class="label label-pill label-danger">PHP</span>
-							<span class="label label-pill label-warning">WordPress</span>
-
+							<span class="label label-pill label-danger">JQuery</span>
 						</div>
 					</div>
 				</div>
@@ -231,7 +241,7 @@
 				<div class="thumbnail">
 					<div class="gallery">
 						<div class = "image_block">
-							<a href="img/yoga.png"><img src="img/yoga.png" width="100%" height="100" alt="Портал школы йоги">
+							<a href="img/yoga.png"><img class="portfolio-img" src="img/yoga.png" width="100%" height="100" alt="Портал школы йоги">
 							</a>
 						</div>
 					</div>
@@ -247,26 +257,76 @@
 				</div>
 			</div>
 
-
-
-
 </div>
 
 	<div class="row for-button">
-			<span class="button"><a href="portfolio.php">Смотреть все работы</a></span>
+			<span class="button"><a href="http://localhost/my-site/portfolio.php">Смотреть все работы</a></span>
 		</div>
+		</div>
+	</div>
 
-
-
-
-
-
+		<div id="portfolio_more" class="pad-left pad-right">
+			<h2>Еще работы</h2>
+			<div class = "portfolio_works">
+			<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-4">
+				<div class="thumbnail">
+					<div class="gallery">
+						<div class = "image_block">
+						<a href="img/erazina.png"><img class="portfolio-img" src="img/erazina.png" width="100%" height="100" alt="Пример"></a>
+						</div>
+					</div>
+					<div class="caption">
+						<h3>Сайт-портфолио</h3>
+						<p>Технологии</p>
+						<span class="label label-pill label-primary">HTML</span>
+						<span class="label label-pill label-success">PHP</span>
+						<span class="label label-pill label-warning">SASS</span>
+						<span class="label label-pill label-danger">Jquery</span>
+						<span class="label label-pill label-primary">Gulp</span>
+						<span class="label label-pill label-success">Bootstrap</span>
+						<span class="label label-pill label-warning">Adobe Photoshop</span>
+					</div>
 				</div>
-				</div>
-				</div>
+			</div>
+				<div class="col-xs-12 col-sm-12 col-md-4">
+					<div class="thumbnail">
+						<div class="gallery">
+							<div class = "image_block">
+								<a href="img/biz2.jpg"><img class="portfolio-img" src="img/biz2.jpg" width="100%" height="100" alt="Пример"></a>
+							</div>
+						</div>
+					<div class="caption">
+						<h3>Бизнес с 0</h3>
+						<p>Технологии</p>
+						<span class="label label-pill label-primary">HTML</span>
+						<span class="label label-pill label-success">CSS</span>
+						<span class="label label-pill label-warning">AdobePhotoshop</span>
+					</div>
+					</div>
 				</div>
 
+		<div class="col-xs-12 col-sm-12 col-md-4">
+				<div class="thumbnail">
+					<div class="gallery">
+						<div class = "image_block">
+							<a href="img/veeam.jpg"><img  class="portfolio-img" src="img/veeam.jpg" width="100%" height="100" alt="Мокап сайта Veeam Software"></a>
+						</div>
+					</div>
+					<div class="caption">
+						<h3>Лэндинг-пейдж Veeam Software</h3>
+						<!-- <a href = "http://www.erazina.info/veeam/index.html">Посмотреть сайт</a> -->
+						<p>Технологии</p>
+						<span class="label label-pill label-primary">HTML</span>
+						<span class="label label-pill label-success">CSS</span>
+						<span class="label label-pill label-danger">Adobe Photoshop</span>
+						<span class="label label-pill label-warning">Bootstrap</span>
 
+					</div>
+				</div>
+			</div>
+			</div>
+			</div>
 
 <!-- </div> -->
 <!-- 	<section id = "contacts">
